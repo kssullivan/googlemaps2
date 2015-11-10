@@ -48,7 +48,25 @@ map: map,
 title: "Sandavágs kirkja"
 };
 
-var things = [thing1, thing2, thing3];
+var thing4 = {
+position: new google.maps.LatLng(62.0333534,-6.7675595),
+map: map,
+title: "Samkoman Immanuel"
+};
+
+var thing5 = {
+position: new google.maps.LatLng(62.1214369,-6.722865),
+map: map,
+title: "Glyvra missiónshús"
+};
+
+var thing6 = {
+position: new google.maps.LatLng(62.2962403,-7.015026),
+map: map,
+title: "Slættaratindur"
+};
+
+var things = [thing1, thing2, thing3, thing4, thing5, thing6];
 
 for (var i=0; i<things.length; i++) {
         new google.maps.Marker(things[i]);
