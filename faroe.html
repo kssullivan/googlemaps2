@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Worship</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <style>
@@ -66,7 +66,15 @@ map: map,
 title: "Slættaratindur"
 };
 
-var things = [thing1, thing2, thing3, thing4, thing5, thing6];
+var thing7 = {
+position: new google.maps.LatLng(62.225557,-6.5880631),
+map: map,
+title: "Christianskirkjan"
+};
+
+
+
+var things = [thing1, thing2, thing3, thing4, thing5, thing6, thing7];
 
 for (var i=0; i<things.length; i++) {
         new google.maps.Marker(things[i]);
